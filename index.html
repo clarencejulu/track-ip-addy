@@ -6,7 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | IP Address Tracker</title>
+  <title>IP Address Tracker</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
    crossorigin=""/>
@@ -14,10 +14,6 @@
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
    <link rel="stylesheet" href="style.css">
-  <!-- <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style> -->
 </head>
 
 <body>
@@ -25,7 +21,7 @@
 <header>
   <h1>IP Address Tracker</h1>
   <form id="form" autocomplete="off">
-      <input type="text" class="search" id="search" placeholder="Search for any IP address or domain">
+      <input type="text" class="search" id="search" placeholder="Search for any IP address">
       <button id="submit-button" type="submit" form="form">
         <svg xmlns="http://www.w3.org/2000/svg" width="11" height="14"><path fill="none" stroke="#FFF" stroke-width="3" d="M2 1l6 6-6 6"/></svg>
       </button>
@@ -33,7 +29,6 @@
 </header>
 
 <main id="main" class="main"> 
-  <!-- DRY next time -->
   <div class="container">
     <h4>ip address</h4>
     <p class="text" id="ip-address">IP Address</p>
@@ -53,11 +48,7 @@
 </main>
 
 <div id="map"></div>
-<script src="script.js"></script>
 
-  <!-- <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div> -->
+<script src="script.js"></script>
 </body>
 </html>

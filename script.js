@@ -28,7 +28,7 @@ function editPlaceholder(event){
     if (event.matches) { 
         search.placeholder = "Search for IP";
       } else {
-       search.placeholder = "Search for any IP address or domain";
+       search.placeholder = "Search for any IP address";
       }
 }
 

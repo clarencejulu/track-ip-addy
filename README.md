@@ -1,12 +1,11 @@
 # IP address tracker solution
 
-
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  <!-- - [Links](#links) -->
+  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -24,18 +23,18 @@ Users should be able to:
 - View the optimal layout for each page depending on their device's screen size
 - See hover states for all interactive elements on the page
 - See their own IP address on the map on the initial page load
-- Search for any IP addresses or domains and see the key information and location
+- Search for any IP addresses and see the key information and location
 
 ### Screenshots
 
-![Desktop- esign for the IP address tracker coding challenge](./design/desktop-design.jpg)
+![Desktop- design for the IP address tracker coding challenge](./design/desktop-design.jpg)
 ![Mobile design for the IP address tracker coding challenge](./design/mobile-design.jpg)
 
 
-<!-- ### Links
+### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com) -->
-<!-- - Live Site URL: [Add live site URL here](https://your-live-site-url.com) -->
+- [Repository](https://github.com/clarencejulu/track-ip-addy) 
+- [Live Site](https://clarencejulu.github.io/track-ip-addy/)
 
 ## My process
 
@@ -46,7 +45,7 @@ Users should be able to:
 - Vanilla JS
 - Mobile-first workflow
 - [IP Address](https://geo.ipify.org/) - API
-- [Map](https://nextjs.org/) - API
+- [Map](https://leafletjs.com/) 
 
 
 ### What I learned
@@ -85,14 +84,12 @@ I enjoy working with API's and would continue learning about them and strengthen
 
 - [IP Void](https://www.ipvoid.com/random-ip/) - This helped me generate random IP Addresses which i then used to test my code.
 - [CSS Tricks](https://css-tricks.com/working-with-javascript-media-queries/) - This article helped me understand how to add media queries through javascript.
+- [The Coding Train YT video](https://youtu.be/nZaZ2dB6pow) - This video showed me how to map geolocation using the Leaflet.js API
 
 
 ## Author
 
-<!-- - Website - [Add your name here](https://www.your-site.com) -->
-- Frontend Mentor - [@clarencejulu](https://www.frontendmentor.io/profile/yourusername)
-<!-- - Twitter - [@yourusername](https://www.twitter.com/yourusername) -->
+- Frontend Mentor - [@clarencejulu](https://www.frontendmentor.io/profile/clarencejulu)
+- Github - [My Github](https://github.com/clarencejulu)
 
-
-<!-- ## Acknowledgments -->
 

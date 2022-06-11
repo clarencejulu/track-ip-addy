@@ -38,7 +38,6 @@ h1{
     color: var(--white);
     margin-top: 1.5rem;
     font-weight: 400;
-    /* text-align: center; */
 }
 
 form{
@@ -49,7 +48,6 @@ form{
 
 .search{
     background-color: var(--white);
-    /* font-family: inherit; */
     font-size: 1.1rem;
     padding: 0.9rem 1rem;
     width: 30rem;
@@ -89,7 +87,6 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* display: none; */
     width: 70vw;
     height: 17.5%;
     z-index: 2;
@@ -166,7 +163,6 @@ h4{
     .main :nth-of-type(3){
         max-height: 20%;
     }
-   
 }
 
 @media(max-width: 375px){
