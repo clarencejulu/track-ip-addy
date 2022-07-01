@@ -1,4 +1,4 @@
-const SEARCH_URL = "https://geo.ipify.org/api/v2/country,city?apiKey=at_IOLGaE9q2XYHplYLoBpTIOXTLKLU7&ipAddress=";
+const SEARCH_URL = "https://geo.ipify.org/api/v2/country,city?apiKey=at_2IcpMNfAgX7mttfL2kDo90oK7BuG4&ipAddress=";
 const my_ip = "https://api.ipify.org?format=json";
 const form = document.getElementById("form");
 const search = document.getElementById("search");
